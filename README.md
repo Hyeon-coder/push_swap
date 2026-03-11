@@ -11,27 +11,7 @@ A sorting algorithm that arranges integers using **two stacks** and a **limited 
 
 ## Demo
 
-```bash
-$ ./push_swap 4 67 3 87 23
-ra
-pb
-ra
-pb
-ra
-pa
-pa
-
-$ ./push_swap 2 1 3 6 5 8
-sa
-pb
-pb
-ra
-pa
-pa
-
-$ ARG=$(shuf -i 1-100 -n 100 | tr '\n' ' '); ./push_swap $ARG | wc -l
-587
-```
+![Demo](assets/demo.gif)
 
 ---
 
