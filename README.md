@@ -150,9 +150,3 @@ Working with raw values makes chunk boundaries uneven — one chunk might contai
 
 ### 4. Combined Rotation Cost Optimization
 When both stacks need rotating in the same direction, using `rr` or `rrr` saves one operation per combined move. Calculating the **true cost** considering these combined operations (instead of treating each stack independently) shaved hundreds of operations off the 500-element case.
-
----
-
-## License
-
-This project was developed as part of the 42 curriculum at Hive Helsinki.
